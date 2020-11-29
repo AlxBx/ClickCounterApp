@@ -14,6 +14,8 @@ public class ClickCounterButtonApp implements ActionListener {
         JButton button = new JButton("Click me");
         button.addActionListener(this);
         label = new JLabel(("Number of clicks: 0"));
+
+        //TODO: Make the 'Reset' button reset the number of clicks when pressed.
         JButton resetButton = new JButton( "Reset");
         resetButton.addActionListener(this);
         panel = new JPanel();
